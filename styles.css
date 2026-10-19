@@ -121,12 +121,16 @@ button:hover {
 
 .testimonial {
     display: flex;
-    flex-direction: column;
 
     padding: 7em;
     background-color: #E5E7EB;
 
-    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
@@ -141,9 +145,51 @@ button:hover {
 
 .author {
     margin-left: auto;
-    margin-right: 32em;
+    
     font-size: 24px;
     font-weight: 600;
+}
+
+.hook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #F9FAF8;
+
+    padding: 96px;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+
+    padding: 48px;
+    gap: 128px;
+
+    background-color:#3882F6;
+
+    border-radius: 8px;
+
+    min-width: 50em;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.hook button {
+    font-size: 18px;
+    font-weight: 700;
+    
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+
+    padding: 6px 28px;
 }
 
 .footer {
